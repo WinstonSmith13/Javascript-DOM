@@ -1,0 +1,61 @@
+#logo {
+    width: 220px;
+    margin: 15px
+}
+
+#jumbo {
+    position: relative
+}
+
+#colors-options {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    width: 30px
+}
+
+#colors-options:hover > path {
+    fill: #ce0033
+}
+
+.btn-close {
+    background-color: #fff
+}
+
+article p {
+    text-align: justify
+}
+
+#to-top {
+    width: 30px
+}
+
+#to-top:hover {
+    cursor: pointer
+}
+#to-top:hover > path {
+    fill: #ce0033
+}
+
+#ccp-tabs ol {
+    counter-reset: item;
+    margin-left: 0;
+    padding-left: 0
+}
+#ccp-tabs li {
+    display: block;
+    margin-bottom: .5em;
+    margin-left: 4em
+}
+#ccp-tabs li::before {
+    display: inline-block;
+    content: "C"counter(item) ": ";
+    counter-increment: item;
+    width: 2em;
+    margin-left: -2em
+}
+
+.set-5 {
+    counter-set: item 4
+}
+
